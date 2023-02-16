@@ -6,8 +6,8 @@
  */
 
 
-/* 
- * prints sizes of various data types 
+/*
+ * prints sizes of various data types
  */ int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
