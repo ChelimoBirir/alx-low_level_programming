@@ -6,7 +6,6 @@
  */
 
 int main(void)
-
 /* prints a string to stdout */
 
 {

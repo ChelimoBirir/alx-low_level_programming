@@ -6,7 +6,6 @@
  */
 
 int main(void)
-
 /* prints sizes of various data types to stdout */
 
 {
