@@ -7,7 +7,7 @@
 
 int main(void)
 /**
- * This program prints a string to stdout
+ *prints a string to stdout
  */
 
 {
