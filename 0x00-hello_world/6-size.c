@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /*
- * This is a program that prints the sizes 
- * of various data types in the relevant machine
+ * main - Entry point
+ * Return: Always 0(Success)
  */
 
 int main(void)
+
+/* prints sizes of various data types to stdout */
+
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
