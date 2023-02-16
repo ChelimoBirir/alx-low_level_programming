@@ -6,9 +6,8 @@
  */
 
 int main(void)
-/**
- *prints a string to stdout
- */
+
+/* prints a string to stdout */
 
 {
 	puts("\"Programming is like building a multilingual puzzle");
