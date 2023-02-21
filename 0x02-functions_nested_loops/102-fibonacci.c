@@ -10,21 +10,26 @@
  *
  */int main(void)
 {
-	int i;
-	int max = 50;
-	long a = 1;
-	long b = 2;
+	long int sum;
+	long int a, b;
+	int counter;
 
-	for (i = 1; i <= (max / 2); i++)
+	sum = 0;
+	a = 0;
+	b = 1;
+	counter = 0;
+
+	while (counter < 49)
 	{
-		printf("%li, %li, ", a, b);
-		a += b;
-		b += a;
-	}
-	if (max % 2 == 1)
-		printf("%li", a);
+		sum = a + b;
+		printf("%li, ", sum);
+		a = b;
+		b = sum;
 
-	printf("\n");
+		counter++;
+	}
+	sum = a + b;
+	printf("%li\n", sum);
 
 	return (0);
 }
