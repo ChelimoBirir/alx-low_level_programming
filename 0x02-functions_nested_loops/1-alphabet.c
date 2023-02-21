@@ -6,16 +6,17 @@
  * Return: Always 0(Success)
  *
  * prints alphabet in lowercase
- */ int main(void)
-{
-	char letter = 'a';
-
-	while (letter <= 'z')
+ */int main(void)
+{	void print_alphabet(void)
 	{
-		putchar(letter);
-		letter++;
-	}
-	putchar('\n');
+		char letter = 'a';
 
-	return (0);
+		while (letter <= 'z')
+		{
+			putchar(letter);
+			letter++;
+		}
+		putchar('\n');
+	}
+
 }
