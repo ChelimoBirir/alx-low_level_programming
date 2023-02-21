@@ -13,7 +13,7 @@
 	{
 		while (n < 98)
 		{
-			_putchar('%d', n);
+			_putchar(48 + n);
 			_putchar(',');
 			_putchar(' ');
 			n++;
@@ -23,7 +23,7 @@
 	{
 		while (n > 98)
 		{
-			_putchar('%d', n);
+			_putchar(48 + n);
 			_putchar(',');
 			_putchar(' ');
 			n--;
