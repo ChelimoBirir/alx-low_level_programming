@@ -9,21 +9,23 @@
  *
  */ void print_to_98(int n)
 {
-	if (n < 98)
+	int number = n;
+
+	if (number < 98)
 	{
-		while (n < 98)
+		while (number < 98)
 		{
-			_putchar(48 + n);
+			_putchar(number);
 			_putchar(',');
 			_putchar(' ');
 			n++;
 		}
 	}
-	else if (n > 98)
+	else if (number > 98)
 	{
-		while (n > 98)
+		while (number > 98)
 		{
-			_putchar(48 + n);
+			_putchar(number);
 			_putchar(',');
 			_putchar(' ');
 			n--;
