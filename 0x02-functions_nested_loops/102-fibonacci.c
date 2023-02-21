@@ -17,7 +17,7 @@
 
 	for (i = 1; i <= (max / 2); i++)
 	{
-		printf("%li %li ", a, b);
+		printf("%li, %li ", a, b);
 		a += b;
 		b += a;
 	}
