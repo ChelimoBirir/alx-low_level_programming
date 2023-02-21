@@ -11,7 +11,7 @@
  *
  */int main(void)
 {
-	int sum, i;
+	int sum, n;
 
 	sum = 0;
 
