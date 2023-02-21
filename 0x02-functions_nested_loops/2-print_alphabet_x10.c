@@ -5,7 +5,7 @@
  * Return: Always 0(Success)
  *
  * prints alphabet 10 times
- */ int main(void)
+ */ void print_alphabet_x10(void)
 {
 	int i = 0;
 
@@ -19,8 +19,8 @@
 			letter++;
 		}
 		i++;
-	}
-	putchar('\n');
 
+		putchar('\n');
+	}
 	return (0);
 }
