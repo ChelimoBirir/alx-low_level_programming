@@ -11,16 +11,22 @@
 {
 	if (n < 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
-		n++;
+		while (n < 98)
+		{
+			_putchar(n);
+			_putchar(',');
+			_putchar(' ');
+			n++;
+		}
 	}
-	else
+	else if (n > 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
-		n--;
+		while (n > 98)
+		{
+			_putchar(n);
+			_putchar(',');
+			_putchar(' ');
+			n--;
+		}
 	}
 }
