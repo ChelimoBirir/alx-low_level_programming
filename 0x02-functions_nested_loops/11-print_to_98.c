@@ -31,4 +31,5 @@
 	}
 	_putchar('9');
 	_putchar('8');
+	_putchar('\n');
 }
