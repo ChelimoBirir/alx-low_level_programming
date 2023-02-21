@@ -9,7 +9,7 @@
 {
 	int i = 0;
 
-	while (i <= 10)
+	while (i < 10)
 	{
 		char letter = 'a';
 
