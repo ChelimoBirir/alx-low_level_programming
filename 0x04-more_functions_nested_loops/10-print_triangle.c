@@ -14,18 +14,18 @@
 	if (size <= 0)
 	{
 		_putchar('\n');
-
-		for (height = 1; height <= size; height++)
+	}
+	for (height = 1; height <= size; height++)
+	{
+		for (space = 1; space <= (size - height); space++)
 		{
-			for (space = 1; space <= (size - height); space++)
-			{
-				_putchar(' ');
-			}
-			for (brick = 1; brick <= height; brick++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
+			_putchar(' ');
+		}
+		for (brick = 1; brick <= height; brick++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
 
 	}
 }
