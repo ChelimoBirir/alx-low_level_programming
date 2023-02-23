@@ -7,9 +7,9 @@
  *
  */void print_line(int n)
 {
-	int i = 0;
+	int i;
 
-	while (i < n)
+	for (i = n; i > 0; i--)
 	{
 		_putchar('_');
 	}
