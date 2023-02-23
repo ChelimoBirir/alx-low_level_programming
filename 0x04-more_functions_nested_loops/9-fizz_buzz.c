@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,9 +13,9 @@
  *
  */int main(void)
 {
-	int i = 1;
+	int i;
 
-	while (i < 100)
+	for (i = 1; i < 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 
@@ -32,9 +31,6 @@
 
 		else
 			printf("%d ", i);
-
-		i++;
-
 
 	}
 }
