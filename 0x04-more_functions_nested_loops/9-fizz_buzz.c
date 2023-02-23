@@ -34,7 +34,7 @@
 
 		if (i < 100)
 
-			printf("\n");
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
