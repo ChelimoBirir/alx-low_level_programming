@@ -14,29 +14,30 @@
     int i = 0;
   
     int randomizer = 0;
-  
+
     /* 
+     * Arrays of:
+     *  - numbers
+     *  - letters
+     *  - special characters
+     *  */
+    char numbers[] = "0123456789";
+ 
+    char letter[] = "abcdefghijklmnoqprstuvwyzx";
+  
+    char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
+  
+    char symbols[] = "!@#$^&*?";
+  
+    /* Stores the random password */
+    char password[N];
+
+    /*
      * Seed the random-number generator
      * with current time so that the
      * numbers will be different every time
      */
     srand((unsigned int)(time(NULL)));
-     
-  
-    /* Array of numbers */
-    char numbers[] = "0123456789";
-  
-    /* Array of lowercase letters */
-    char letter[] = "abcdefghijklmnoqprstuvwyzx";
-  
-    /* Array of uppercase letters */
-    char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
-  
-    /* Array of all the special symbols */
-    char symbols[] = "!@#$^&*?";
-  
-    /* Stores the random password */
-    char password[N];
 
     /* To select the randomizer */
     randomizer = rand() % 4;
