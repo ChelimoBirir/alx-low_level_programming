@@ -30,7 +30,7 @@
 
 	for (j = 0; j <= i; j++)
 	{
-		_putchar(str[i]);
+		_putchar(str[j]);
 	}
 
 }
