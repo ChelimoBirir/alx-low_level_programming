@@ -30,7 +30,7 @@
     char symbols[] = "!@#$^&*?";
   
     /* Stores the random password */
-    char password[N];
+    char password[10];
 
     /*
      * Seed the random-number generator
@@ -75,9 +75,7 @@
   /* Driver Code */
 int main()
 {
-	/* Length of the password */
-	int N = 10;
-
+	
 	/* Function Call */
 	password_generator(N);
 
