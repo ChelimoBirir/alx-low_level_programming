@@ -75,7 +75,8 @@
   /* Driver Code */
 int main()
 {
-	
+	/* Length of pasword */
+	int N = 5;	
 	/* Function Call */
 	password_generator(N);
 
