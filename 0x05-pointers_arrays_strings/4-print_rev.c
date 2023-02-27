@@ -14,8 +14,6 @@
 		i++;
 	}
 
-	return (i);
-
 	int j;
 
 	for (j = i; j > 0; j--)
