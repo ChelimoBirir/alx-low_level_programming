@@ -27,7 +27,7 @@
 
 	while (str[i] != '\0' && i < _strlen(str))
 	{
-		_putchar(s[i]);
+		_putchar(str[i]);
 		i += 2;
 	}
 }
