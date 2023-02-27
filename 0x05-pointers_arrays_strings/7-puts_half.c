@@ -28,9 +28,14 @@
 
 	i = i / 2;
 
-	for (j = (i + 1); str[j] != '\0'; j++)
+	for (j = i; str[j] != '\0'; j++)
 	{
-		_putchar(str[j]);
+		if (i % 2 == 0)
+			_putchar(str[j]);
+
+		else
+			_putchar(str[j + 1]);
+
 	}
 	_putchar('\n');
 
