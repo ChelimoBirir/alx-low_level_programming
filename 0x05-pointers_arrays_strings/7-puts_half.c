@@ -28,7 +28,7 @@
 
 	i = i / 2;
 
-	for (j = i; s[j] != '\0'; j++)
+	for (j = i; str[j] != '\0'; j++)
 	{
 		_putchar(str[j]);
 	}
