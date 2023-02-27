@@ -7,7 +7,7 @@
  *
  */void rev_string(char *s)
 {
-	int i = (_strlen(s) - 1);
+	int i = _strlen(s);
 	int j = 0;
 	char tmp;
 
