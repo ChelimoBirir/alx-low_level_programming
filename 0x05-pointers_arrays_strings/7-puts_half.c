@@ -23,7 +23,7 @@
  *
  */void puts_half(char *str)
 {
-	int i = _strlen(*str);
+	int i = _strlen(str);
 
 	int i = i / 2;
 
