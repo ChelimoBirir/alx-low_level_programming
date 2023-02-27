@@ -1,6 +1,22 @@
 #include "main.h"
 
 /*
+ * _strlen - finds length of s
+ *
+ * returns: lenght (i)
+ *
+ */int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
+
+/*
  * puts_half: prints half of a string to stdout
  *
  * Return: void
