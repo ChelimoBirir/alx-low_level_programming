@@ -26,16 +26,16 @@
 	int i = _strlen(str);
 	int j;
 
-	i = i / 2;
+	if (i % 2 == 0)
+
+		j = i / 2;
+
+	else
+		j = ((i / 2) + 1);
 
 	for (j = i; str[j] != '\0'; j++)
 	{
-		if (i % 2 == 0)
-			_putchar(str[j]);
-
-		else
-			_putchar(str[j + 1]);
-
+		_putchar(str[j]);
 	}
 	_putchar('\n');
 
