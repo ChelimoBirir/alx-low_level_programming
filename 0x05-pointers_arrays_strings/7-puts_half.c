@@ -24,10 +24,9 @@
  */void puts_half(char *str)
 {
 	int i = _strlen(str);
+	int j;
 
 	i = i / 2;
-
-	int j;
 
 	for (j = 0; j <= i; j++)
 	{
