@@ -9,6 +9,7 @@
 {
 	int i = 0;
 
+	char * = s;
 
 	while (s[i] != '\0')
 	{
