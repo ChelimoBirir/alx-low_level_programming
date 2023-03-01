@@ -5,10 +5,9 @@
  *
  * Return: string pointer
  *
- */char *string_toupper(char *)
+ */char *string_toupper(char *s)
 {
 	int i = 0;
-	char *s = "behold the welcome";
 
 	while (s[i] != '\0')
 	{
