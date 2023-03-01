@@ -9,11 +9,11 @@
 {
 	int i = 0;
 
-	while (s[i] != '\0')
+	while (str[i] != '\0')
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			s[i] = s[i] - 32;
+			str[i] = str[i] - 32;
 		}
 		i++
 	}
