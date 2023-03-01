@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * _strlen: returns the lenghth of a string
+ * _strlen: returns the length of a string
  *
  * Return: int
  *
@@ -34,5 +34,5 @@
 
 	dest[j + i] = '\0';
 
-	return (dest);
+	return (*dest);
 }
