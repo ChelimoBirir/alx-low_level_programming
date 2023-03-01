@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdio.h>
+
 /*
  * string_toupper - cnahges lowercase letters in a string to uppercase
  *
  * Return: string pointer
  *
- */char *string_toupper(char *s)
+ */char *string_toupper(char *str)
 {
 	int i = 0;
 
@@ -17,5 +17,5 @@
 		}
 		i++
 	}
-	return (s);
+	return (str);
 }
