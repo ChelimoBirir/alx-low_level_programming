@@ -5,7 +5,7 @@
  *
  * Return: destination string
  *
- */char *_strncat(char *dest, char *c, int n)
+ */char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int len = 0;
