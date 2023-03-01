@@ -1,32 +1,21 @@
 #include "main.h"
 
 /*
- * array_length - finds number of members in an array
- *
- * Return: void
- *
- */int array_length(int *a)
-{
-	int s = *(&a + 1) - a;
-
-	return (s);
-}
-
-/*
  * reverses_array - reverses the members of an array
  *
  * Return: void
  *
  */void reverse_array(int *a, int n)
 {
-	int i = array_length(a);
 
-	int j;
+	int tmp, start = 0;
+	int end = n - 1; 
 
-	for (j = 0; j < i; j++)
+	while (start < end)
 	{
-		array[i] = array[j]
-		i--;
+		tmp = *(a + start);
+		*(a + start) = *(a + end);
+		*(a + end) = tmp;
+		start++, end--;
 	}
-
 }
