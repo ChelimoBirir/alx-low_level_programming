@@ -9,3 +9,5 @@ The directory contains:
 7-print_chessboard.c: prints the chessboard.
 8-print_diagsums.c prints the sum of the two diagonals of a square matrix of integers.
 9-set_string.c: sets the value of a pointer to a char.
+100-set_string.c: a function that sets the value of a pointer to a char.
+101-crackme_password: a file that contains the password for the crackme2 executable.
