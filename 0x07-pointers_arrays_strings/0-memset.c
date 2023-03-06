@@ -11,7 +11,7 @@
 
 	while (i < n)
 	{
-		*(s + i) = b;
+		s[i] = b;
 		i++;
 	}
 	return (s);
