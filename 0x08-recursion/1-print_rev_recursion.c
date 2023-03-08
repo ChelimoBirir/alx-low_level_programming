@@ -7,7 +7,7 @@
  *
  */void _print_rev_recursion(char *s)
 {
-	int i = _strlen(s);
+	int i = _strlen(*s);
 
 	if (i == 0)
 		return;
