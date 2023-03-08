@@ -11,5 +11,5 @@
 
 	if (i < 0)
 		return;
-	_putchar(s[i]) + _puts_recursion(*s + 1);
+	_putchar(s[i]) + _puts_recursion(*s + '1');
 }
