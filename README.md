@@ -8,3 +8,5 @@ The repo contains:
 0x04-more_functions_nested_loops: a directory for  exercises in functions and nested loops
 0x05-pointers_arrays_strings: a directory for exercises in pointers, arrays and strings
 0x06-pointers_arrays_strings: a directory for exercises in pointers, arrays and strings
+0x07-pointers_arrays_strings: a directory for exercises in pointers, arrays and strings
+0x08-Recursion: a directory for exercises in recursion
