@@ -9,7 +9,8 @@
 {
 	int i = _strlen(s);
 
-	if (i == 0;)
+	if (i == 0)
 		return;
 	_putchar(s[i]);
-	_print_rev_recursion(s[i - 1]);
+	s--;
+	_print_rev_recursion(s);
