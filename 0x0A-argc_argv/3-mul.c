@@ -5,17 +5,16 @@
  *
  * Return: int
  *
- */int main(int argc, char *argv[])
+ */int main(int argc, char *arg[])
 {
-
-	/* validate input */
-	if (argc != 3)
+	if (argc <= 2 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-
-	/* mulitply two arguments passed via cmd line */
-	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-	return (0);
+	else
+	{
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		return (0);
+	}
 }
