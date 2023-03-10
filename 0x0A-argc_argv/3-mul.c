@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
-/*
- * main - multiplies two numbers
- *
- * Return: int
- *
- */int main(int argc, char *argv[])
+
+/**
+ * main - print product of two numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: (0)
+ */
+
+int main(int argc, char *argv[])
 {
 	if (argc <= 2 || argc > 3)
 	{
