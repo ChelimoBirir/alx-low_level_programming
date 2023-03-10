@@ -11,3 +11,4 @@ The repo contains:
 0x07-pointers_arrays_strings: a directory for exercises in pointers, arrays and strings
 0x08-Recursion: a directory for exercises in recursion
 0x09-Static_Libraries: a directory that contains a static library
+0x0A-argc_argv: a direcotryt that contains exercises in arguments to main
