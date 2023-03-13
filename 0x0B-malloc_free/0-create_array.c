@@ -20,7 +20,7 @@
 	if (arr == NULL)
 		return (NULL);
 
-	while (i < int(size))
+	while (i < size)
 	{
 		arr[i] = c;
 		i++;
