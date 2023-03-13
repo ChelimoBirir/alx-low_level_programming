@@ -18,13 +18,13 @@
 	if (s2 == NULL)
 		s2 = "";
 
-	while (s1[i])
+	while (s1[i] != '\0')
 	{
 		len++;
 		i++;
 	}
 
-	while (s2[j])
+	while (s2[j] != '\0')
 	{
 		j++;
 		len2++;
