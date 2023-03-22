@@ -1,36 +1,27 @@
-#include "3-calc.h"
-#include <stdlib.h>
-#include <stdio.h>
+#include "function_pointers.h"
 
 /**
- * main - performs simple operations (calculator)
- * @argc: number of arguments
- * @argv: array of arguments
- * Return: 0 (Always)
+ * int_index - Searches for an integer in an array of integers.
+ * @array: The array of integers.
+ * @size: The size of the array.
+ * @cmp: A pointer to the function to be used to compare values.
+ *
+ * Return: If no element matches or size <= 0 - -1.
+ *         Otherwise - The index of the first element for which
+ *                     the cmp function does not return 0.
  */
-
-int main(int argc, char *argv[])
+int int_index(int *array, int size, int (*cmp)(int))
 {
-	int a, b, result;
-	int (*op)(int, int);
+	int index;
 
-	if (argc != 4)
+	if (array == NULL || cmp == NULL)
+		return (-1);
+
+	for (index = 0; index < size; index++)
 	{
-		printf("Error\n");
-		exit(98);
+		if (cmp(array[index]) != 0)
+			return (index);
 	}
 
-	op = get_op_func(argv[2]);
-	if (op == NULL)
-	{
-		printf("Error\n");
-		exit(99);
-	}
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
-	result = op(a, b);
-
-	printf("%d\n", result);
-
-	return (0);
+	return (-1);
 }
