@@ -1,14 +1,11 @@
 #ifndef LISTS_H
 #define LISTS_H
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-typedef struct list_l
+typedef struct list_s
 {
 	char *string;
 	unsigned int length;
-	struct list_l *next;
+	struct list_s *next;
 } list_t;
 
 int _putchar(char c);
