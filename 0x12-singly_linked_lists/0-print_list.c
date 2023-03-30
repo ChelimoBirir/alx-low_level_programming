@@ -9,13 +9,13 @@
 {
 	size_t count = 0;
 
-	while (h != NULL)
+	while (h)
 	{
 		
-		if (h->string == NULL)
+		if (h->str == NULL)
 			printf("[%d](nil)\n", 0);
 		else
-			printf("[%d] %s\n)", h->length, h->string);
+			printf("[%d] %s\n)", h->len, h->str);
 		
 		count++;
 		h = h->next;

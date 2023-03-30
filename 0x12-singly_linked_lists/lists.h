@@ -6,8 +6,8 @@
 
 typedef struct list_l
 {
-	char *string;
-	unsigned int length;
+	char *str;
+	unsigned int len;
 	struct list_l *next;
 } list_t;
 
