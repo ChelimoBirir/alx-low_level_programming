@@ -1,4 +1,7 @@
 #include "lists.h"
+#ifndef NULL
+#define NULL ((void *)0)
+#endif
 
 /**
  * get_nodeint_at_index - Returns the nth node of a listint_t linked list.
