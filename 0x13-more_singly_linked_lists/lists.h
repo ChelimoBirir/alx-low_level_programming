@@ -1,7 +1,5 @@
 #ifndef LISTS_H
 #define LISTS_H
-#ifndef NULL
-#define NULL ((void *)0)
 #include <stdlib.h>
 
 /***** STRUCTURES AND TYPE DEFINITIONS *****/
