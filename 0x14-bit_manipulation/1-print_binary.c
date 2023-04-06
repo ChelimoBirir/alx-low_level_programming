@@ -9,19 +9,8 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i;
+	if (n > 1)
+		print_binary(n >> 1);
 
-	int num_bits = sizeof(n) * 8;
-
-	for (i = num_bits - 1; i >= 0; i--)
-	{
-
-		unsigned long int mask = 1UL << i;
-
-		if (n & mask)
-			_putchar('1');
-
-		else
-			_putchar('0');
-	}
+	_putchar((n & 1) + '0');
 }
