@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary representation of an unsigned long int
- * @n: the number to be printed in binary form
+ * get_bit - returns the value of a bit at a given index
+ * @n: integer
+ * @index: index
  *
- * Return: void
+ * Return: integer
  */
-void print_binary(unsigned long int n)
+
+int get_bit(unsigned long int n, unsigned int index)
 {
 	if (index >= (sizeof(unsigned long int) * 8))
 		return (-1);
