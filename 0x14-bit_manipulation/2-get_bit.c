@@ -12,4 +12,3 @@ void print_binary(unsigned long int n)
 		return (-1);
 	return ((n >> index) & 1);
 }
-}
