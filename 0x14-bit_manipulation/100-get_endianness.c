@@ -10,10 +10,9 @@ int get_endianness(void)
 	int i = 1;
 	char *c = (char *) &i;
 
-	/* if the first byte (the least significant byte) of x is 0x10, the system is little endian */
 	if (*c == 0x10)
-		return 1;
+		return (1);
 	/* otherwise, the system is big endian */
 	else
-		return 0;
+		return (0);
 }
